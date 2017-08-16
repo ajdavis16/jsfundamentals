@@ -50,7 +50,7 @@ conditional operators
 ===    strictly equal to
 !      (Bang) or Not
 !=     not equal to
-
+=      Assignment Operator
 */
 
 console.log(4 == 5);
@@ -58,8 +58,8 @@ console.log("test" > "ego");
 console.log(1 == "1");
 console.log(1 === "1");
 
-console.log('/n');
-console.log('/n');
+console.log('\n');
+console.log('\n');
 
 
 
