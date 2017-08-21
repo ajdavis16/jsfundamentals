@@ -2,6 +2,7 @@
 
 let food = {
 	pies: ['Pecan', 'Blueberry', 'Cherry', 'Key Lime'],
+	pieNames: [],
 	getPies: function(){
 		return this.pies; //food object
 
@@ -11,7 +12,11 @@ let food = {
 			console.log([newP] + " Pie")
 		})
 	}
-
+getPieNames: function(){
+	this.pies.forEach(functiono(pie){
+		this.pieNames.push(pie + " Pie")
+	})
+	return this.pieNames
 }
 
 
