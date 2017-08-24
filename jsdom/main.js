@@ -1,14 +1,14 @@
 let input = document.getElementById("input");
 let output = document.getElementById("output");
-
+let ulist = document.getElementById("friendsList");
 
 
 
 //console.log(input.value);
-
+let newName = "";
 
 function capitalize(){
-		let newName = "";
+		
 
 		for ( let l in input.value){
 			if ( l == 0 )
@@ -21,8 +21,8 @@ function capitalize(){
 
 		}
 
-	output.innerHTML += "Capitalized Name: " + newName
-	input.value=""
+	output.innerHTML += 'br' "Capitalized Name: " + newName
+	input.value="";
 }
 
 
@@ -35,5 +35,24 @@ document.onkeypress = function (e){
 
 	
 }
+
+
+function addItem (){
+	let li = document.createElement('li');
+	let text = li.innerHTML = newName;
+	ulist.appendChild(li);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
