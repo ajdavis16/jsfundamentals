@@ -44,4 +44,35 @@ var dayAmount = 2;
 
 
 
-//
+//var name;            Declared: Creating empty containers.
+
+//name = "Andrew Davis";          Initialized: Giving the empty containers values inside them.
+
+var name = "Andrew Davis";       //Usually Declared and Initialized at the same time.
+
+// Types of Variables Include:
+
+// - Numbers (Integers or Floats.)
+// - Strings (Wrapped in Quotes.)
+// - Booleans (Binary - Having one of two possible values.)
+// - Arrays (Objects that contains multiple values inside [].)
+// - Objects (Containing properties that make up the object.)
+
+
+console.log(name)
+
+
+var firstName = "Chuck";
+var lastName = "Norris";
+
+console.log(firstName + " " + lastName);
+
+console.log(10 > 2);
+
+
+
+
+
+
+
+

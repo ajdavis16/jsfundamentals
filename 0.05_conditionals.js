@@ -44,7 +44,19 @@ if (age >= 18) {
 
 
 
+var richMan = 1000000;
 
+if (richMan >= 1000000){
+	console.log("You are rich");
+} else if(richMan >= 500000) {
+	console.log("You are well off");
+} else if(richMan >= 250000) {
+	console.log("Your doing pretty well");
+} else if(richMan >= 100000) {
+	console.log("Getting There");
+} else{
+	console.log("Keep Working");
+}
 
 
 

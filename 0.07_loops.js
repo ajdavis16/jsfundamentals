@@ -74,7 +74,7 @@ var studentName = "Smita";
 var capSN = "";
 // lcv             collection
 for (var l in studentName) {
-	if (1 == 0) {
+	if (l == 0) {
 		capSN = studentName[1].toUpperCase();
 	} else {
 		capSN += studentName[1];
