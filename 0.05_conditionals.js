@@ -44,7 +44,7 @@ if (age >= 18) {
 
 
 
-var richMan = 1000000;
+var richMan = 10000;
 
 if (richMan >= 1000000){
 	console.log("You are rich");

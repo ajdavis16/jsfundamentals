@@ -6,22 +6,22 @@ lcv =
 for loop
 ------------
 
-
-
-
+// Instead of having to write several lines of code that could get different responses
+// one could just create a loop.
+// For loops loop through a block of code a number of times.
 while loop
 ---------------
 
-
+//While loops loop through a block of code while a specified condition is true.
 
 for in loop
 --------------------
 
-
+// for/in loops loop through the properties of an object
 
 do while loop
 --------------------------
-
+// loops through a block of code while a specified condition is true
 runs at least once 
 
 
@@ -70,7 +70,7 @@ while(a < 101){
 
 
 
-var studentName = "Smita";
+var studentName = "Andrew";
 var capSN = "";
 // lcv             collection
 for (var l in studentName) {
@@ -79,9 +79,31 @@ for (var l in studentName) {
 	} else {
 		capSN += studentName[1];
 	}
-	
+	console.log(studentName)
 }
 
 
-console.log(studentName)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
